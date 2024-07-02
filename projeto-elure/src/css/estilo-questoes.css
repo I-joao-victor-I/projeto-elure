@@ -1,0 +1,128 @@
+.cabecalho {
+    background-color: #6A0DAD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px; /* Reduzindo a altura */
+}
+
+.logo {
+    max-height: auto;
+    width: 50px; /* Reduzindo a largura */
+}
+
+a {
+    text-decoration: none;
+    color: #0F4C81;
+}
+
+.texto {
+    color: white;
+}
+
+.logo:hover {
+    transform: scale(1.2);
+    transition: ease-in-out;
+}
+
+.espacamento {
+    margin-top: 10px; /* Reduzindo a margem superior */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.botao {
+    margin: 5px 10px; 
+    border-radius: 3px; 
+    border: 1px solid #0F4C81;
+    padding: 8px 15px; 
+}
+
+.botao {
+    text-align: center;
+}
+
+.respostas button {
+    color: white;
+    background-color: #6A0DAD;
+    border: 2px solid #6A0DAD; 
+    border-radius: 5px; 
+    padding: 8px 15px; 
+    margin: 3px 0; 
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.respostas button:hover {
+    background-color: white;
+    color: #6A0DAD;
+    border-color: #6A0DAD;
+}
+
+.proxima-questao {
+    text-align: center;
+}
+
+.proxima-questao button,
+.proxima-questao a {
+    color: white;
+    background-color: #6A0DAD;
+    border: 2px solid #6A0DAD; 
+    border-radius: 5px; 
+    padding: 8px 15px; 
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.proxima-questao button:hover,
+.proxima-questao a:hover {
+    background-color: white;
+    color: #6A0DAD;
+    border-color: #6A0DAD;
+}
+
+.pergunta {
+    text-align: center;
+}
+
+.botao button {
+    width: 100%;
+    padding: 8px;
+    text-align: left;
+}
+
+.respostas ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    list-style: none;
+}
+
+.respostas li {
+    width: 50%;
+    margin-bottom: 5px;
+}
+
+.container-verify-question {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-verify-question {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.enviar-resposta{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}

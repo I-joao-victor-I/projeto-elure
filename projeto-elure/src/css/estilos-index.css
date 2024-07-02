@@ -1,0 +1,83 @@
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container-global {
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6A0DAD;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-header {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.Sobre{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+.logo {
+    height: 70px;
+}
+
+.logo-grande {
+    max-width: 50%;
+    height: auto;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+button {
+    background-color: #6A0DAD;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4B0082;
+}
+
+.Artigo {
+    max-height: 400px;
+    overflow-y: auto;
+    border: 2px solid #ccc;
+    padding: 30px;
+}
+
+.espacamento {
+    margin-top: 20px;
+}
